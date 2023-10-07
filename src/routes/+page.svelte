@@ -62,35 +62,35 @@
     // const updateAnimationsLoaded = () => {document.cookie = `animationsLoaded=true; path="/"`};
 
     function animateMain() {
-        anime({
-            targets: [".dila-denge"],
-            translateY: ["-80%", 0],
-            rotate: ["-10deg", 0],
-            scale: [0, 1],
-            opacity: [0, 1],
-            easing: "spring(1, 80, 10, 4)",
-            duration: 200,
-        });
+        // anime({
+        //     targets: [".dila-denge"],
+        //     translateY: ["-80%", 0],
+        //     rotate: ["-10deg", 0],
+        //     scale: [0, 1],
+        //     opacity: [0, 1],
+        //     easing: "spring(1, 80, 10, 4)",
+        //     duration: 200,
+        // });
 
-        anime({
-            targets: [".everything-else", "header"],
-            opacity: [0, 1],
-            easing: "easeInSine",
-            duration: 1000,
-        });
+        // anime({
+        //     targets: [".everything-else", "header"],
+        //     opacity: [0, 1],
+        //     easing: "easeInSine",
+        //     duration: 1000,
+        // });
 
-        anime({
-            targets: [".lottie"],
-            opacity: [0, 1],
-            easing: "easeInSine",
-            duration: 2000,
-        });
-        anime({
-            targets: [".get-started"],
-            opacity: [0, 1],
-            easing: "easeInSine",
-            duration: 500,
-        });
+        // anime({
+        //     targets: [".lottie"],
+        //     opacity: [0, 1],
+        //     easing: "easeInSine",
+        //     duration: 2000,
+        // });
+        // anime({
+        //     targets: [".get-started"],
+        //     opacity: [0, 1],
+        //     easing: "easeInSine",
+        //     duration: 500,
+        // });
     }
     afterUpdate(() => {
         animateMain();
@@ -100,7 +100,7 @@
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <div class="lg:bg-background">
     <nav
-        class="main-container flex justify-center text-center lg:px-16 px-4 dark:bg-gray-950 overflow-hidden lg:overflow-hidden pb-12"
+        class="main-container flex justify-center text-center lg:px-12 px-4 dark:bg-gray-950 overflow-hidden lg:overflow-hidden pb-12"
     >
         <Blob />
         <div
@@ -136,11 +136,14 @@
                     our homeless neighbors, helping them rebuild their lives
                     with dignity and support.
                 </p>
-                <div class="b mx-auto h-16 w-60 flex justify-center items-center">
-                    <div class="i h-16 w-60 bg-gradient-to-br from-gradient1 to-gradient2 items-center rounded-full shadow-2xl cursor-pointer absolute overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out">
+                    
+                <a href="/register">
+                    <div class="b mx-auto h-16 w-60 flex justify-center items-center">
+                        <div class="i h-16 w-60 bg-gradient-to-br from-gradient1 to-gradient2 items-center rounded-full cursor-pointer absolute overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out">
+                        </div>
+                        <a class="text-center text-white text-xl font-semibold z-10 pointer-events-none font-display">GET STARTED</a>
                     </div>
-                    <a class="text-center text-white text-xl font-semibold z-10 pointer-events-none font-display">GET STARTED</a>
-                  </div>
+                </a>
                 <!-- <button class="know-more mt-4 py-2 px-4 text-xl font-instrument text-text border-2 border-gradient2 hover:bg-gradient2 rounded-xl cursor-pointer">
                     Know More
                 </button> -->
@@ -227,7 +230,7 @@
             <div class="flex justify-end items-center lg:flex-row flex-col gap-8 flex-wrap">
                     <a
                     href="#"
-                    class= "lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    class= "lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] lg:max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
                 >
                     <div>
                         <h5
@@ -247,7 +250,7 @@
                 </a>
                 <a
                     href="#"
-                    class= "lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    class= "lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] lg:max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
                 >
                     <div>
                         <h5
@@ -268,7 +271,7 @@
                 </a>
                 <a
                     href="#"
-                    class="lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    class="lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] lg:max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
                 >
                     <div>
                         <h5
@@ -290,7 +293,7 @@
                 </a>
                 <a
                     href="#"
-                    class="lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    class="lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] lg:max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
                 >
                     <div>
                         <h5
@@ -322,23 +325,23 @@
             Why does it matter?
         </h1>
 
-        <a href="#" class="m-10 mt-4 block bg-white">
-            <p
-                class="font-normal max-w-[1100px] text-lg px-24 text-center text-gray-900 dark:text-gray-400 pt-5"
-            >
-                Our visionary project seamlessly intertwines the principles of
-                environmental stewardship and social empowerment, providing
-                innovative solutions to confront not only the pressing issues of
-                today but also the enduring challenges of tomorrow. This
-                multifaceted initiative not only champions the cause of
-                environmental sustainability but also extends a lifeline to
-                marginalized individuals, granting them the opportunity to not
-                only reclaim but also rejuvenate their lives. In doing so, we're
-                not just addressing the urgent needs of our planet but also
-                nurturing the seeds of a more equitable and sustainable future
-                for all.
-            </p>
-        </a>
+
+        <p
+            class="font-normal max-w-[1100px] text-lg lg:px-24 px-4 text-center text-gray-900 dark:text-gray-400 pt-5"
+        >
+            Our visionary project seamlessly intertwines the principles of
+            environmental stewardship and social empowerment, providing
+            innovative solutions to confront not only the pressing issues of
+            today but also the enduring challenges of tomorrow. This
+            multifaceted initiative not only champions the cause of
+            environmental sustainability but also extends a lifeline to
+            marginalized individuals, granting them the opportunity to not
+            only reclaim but also rejuvenate their lives. In doing so, we're
+            not just addressing the urgent needs of our planet but also
+            nurturing the seeds of a more equitable and sustainable future
+            for all.
+        </p>
+
     </nav>
 
     <nav class="lottie overflow-hidden">
