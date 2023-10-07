@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/Dashboard/Branch/AIDS/First/+page.svelte";
