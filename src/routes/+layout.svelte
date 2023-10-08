@@ -32,43 +32,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="flex justify-center items-center gap-4">
-                    {#if !data.user}
 
-                        <div class="dropdown dropdown-end">
-                            <a href="/login" class="btn rounded-xl py-1 px-6 bg-gradient2 hover:bg-gradient2/5 hover:text-text hover:border-gradient2 border-1 border-background text-background">Login</a>
-                            <a href="/register" class="btn rounded-xl py-1 px-6 bg-gradient1 hover:bg-gradient1/5 hover:text-text hover:border-gradient1 border-1 border-background text-background">Register</a>
-                        </div>
-                    {:else}
-                        <div class="dropdown dropdown-end">
-                            <a href="/Dashboard" class="btn rounded-xl py-1 px-6 bg-gradient2 hover:bg-gradient2/5 hover:text-text hover:border-gradient2 border-1 border-background text-background">Dashboard</a>
-                        </div>
-                        <div class="dropdown dropdown-end text-black ">
-                            <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-                            <!-- svelte-ignore a11y-label-has-associated-control -->
-                            <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-                                <div class="w-10 rounded-full ">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/2048px-Default_pfp.svg.png" alt="User avatar" />
-                                </div>
-                            </label>
-                            <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-                            <ul
-                                    tabindex="0"
-                                    class="menu menu-compact dropdown-content mt-3 p-2 shadow-xl bg-background rounded-box w-52"
-                            >
-                                <li>
-                                    <a href="/my/projects" class="justify-between">My Projects</a>
-                                </li>
-                                <li><a href="/my/settings">Settings</a></li>
-                                <li>
-                                    <form action="/logout" method="POST">
-                                        <button type="submit" class="w-full text-start">Logout</button>
-                                    </form>
-                                </li>
-                            </ul>
-                        </div>
-                    {/if}
-                </div>
                 <!-- <div class=" flex justify-center invisible lg:visible">
                     <div class="flex py-6">
                     <a href="https://www.facebook.com/ieeegtbit/"><img style="object-fit:cover" src="/fb.png" class=" px-2 h-6 block " alt="logo"></a>

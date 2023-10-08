@@ -133,11 +133,11 @@
                     {lowerText}
                 </h2>
                 <p
-                    class="lg:text-lg text-md get-started max-w-[600px] text-text pt-6 pb-2"
+                    class="lg:text-lg text-md get-started max-w-[800px] text-text pt-6 pb-2"
                 >
-                    Leveraging drones alongside PUSA Bio-Decomposer technology
-                    offers a <b>cost-effective solution</b> to effectively eliminate
-                    stubble burning.
+                    At climanage, the utilization of drones for the application of Pusa bio decomposer offers enhanced efficiency by substituting manual labor, resulting in time and cost savings.
+
+                    Additionally, the organic manure produced through the application of Pusa decomposer can be supplied to Climanage, enabling farmers to generate an extra source of income.
                 </p>
 
                 <a href="/register">
