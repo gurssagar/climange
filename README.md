@@ -22,7 +22,9 @@ At Climanage, we understand the importance of preserving our environment and imp
 
 ## Get Started
 
-Visit our website at [https://climanage.netlify.app/](https://climanage.netlify.app/) to learn more about how Climanage is making a difference in agriculture.
+- Visit our website at [https://climanage.netlify.app/](https://climanage.netlify.app/) to learn more about how Climanage is making a difference in agriculture.
+- Our ppt is climanage.pptx and in pdf format it is climanage.pptx.
+- Our video is climanage.mp4
 
 ## How to Run the Svelte Project
 
