@@ -88,4 +88,3 @@ Before you begin, ensure that you have the following software installed on your 
 You've successfully installed and set up a Svelte project on your local machine. You can now start developing and customizing the Svelte app according to your project's requirements.
 
 Happy coding!
-```
