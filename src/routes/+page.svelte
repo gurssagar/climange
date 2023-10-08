@@ -639,14 +639,14 @@
             <h1
                 class="dila-denge text-center bg-gradient-to-r from-gradient1 to-gradient2 text-transparent bg-clip-text text-[44px] lg:text-7xl text-4xl select-none block font-instrument overflow-visible font-[900]"
             >
-                Supporting the Homeless<br /> Essential Supplies
-            </h1>
+                Rent A Drone</h1>
             <div class="p-10 justify-center items-center text-text m-0 flex">
                 <p
-                    class="font-instrument text-center lg:text-xl text-md text center select-none max-w-[750px]"
+                    class="font-instrument text-center lg:text-xl text-md text center select-none max-w-[1100px]"
                 >
-                    Offering essential items and support to those experiencing
-                    homelessness with compassion.
+                    Our Agricultural Drone Rental service is a game-changer for farmers looking to enhance the effectiveness of applying PUSA Bio-Decomposer. Our specialized drones are equipped with precision spraying capabilities, allowing you to evenly and efficiently distribute the bio-decomposer across your fields. This targeted approach ensures optimal decomposition of crop residues, improving soil health and reducing the need for burning.
+<br><br>
+                    With our rental service, you can access this advanced technology without the financial burden of drone ownership. Our expert operators will assist you in setting up and executing precise spraying missions, guaranteeing that you get the most out of your PUSA Bio-Decomposer applications.
                 </p>
             </div>
             <div
