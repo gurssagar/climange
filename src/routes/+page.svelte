@@ -8,12 +8,13 @@
     let LottiePlayer;
     let mainContainer;
     let acceptTerms = false;
-    let upperText = "Building a Brighter Future for the Homeless";
-    let lowerText = "The GreenTech Initiative";
+    let upperText = "Eliminate stubble burning for a cleaner environment.";
+    let lowerText = "Stop Stubble Burning";
     export let data;
     const a = "/static/bg2.jpg";
     let controlsLayout = [];
     const landingPageLottieFile = "plant2.json";
+    const landingPageLottieFile2 ="farming.json"
     const mobilefile = "animat.json";
     onMount(async () => {
         const module = await import("@lottiefiles/svelte-lottie-player");
@@ -131,10 +132,8 @@
                 >
                     {lowerText}
                 </h2>
-                <p class="lg:text-lg text-md get-started max-w-[700px] text-text pb-2">
-                    Compassionately providing essentials, shelter, and hope to
-                    our homeless neighbors, helping them rebuild their lives
-                    with dignity and support.
+                <p class="lg:text-lg text-md get-started max-w-[600px] text-text pt-6 pb-2">
+                    Leveraging drones alongside PUSA Bio-Decomposer technology offers a cost-effective solution to effectively eliminate stubble burning.
                 </p>
                     
                 <a href="/register">
@@ -181,15 +180,12 @@
                         <h5
                         class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
                         >
-                            Environmental Challenge
+                            Economic Losses
                         </h5>
                         <p
                             class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
                         >
-                            Pollution and climate change pose severe threats to our planet.
-                            Deforestation, urbanization, and industrialization have led to
-                            reduced green cover, contributing to rising pollution levels and
-                            global warming.
+                            It can result in economic losses for the agriculture sector, as the nutrients in crop residues are lost, and farmers may face fines or penalties for illegal burning.
                         </p>
                     </div>
                     
@@ -202,146 +198,437 @@
                         <h5
                         class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
                         >
-                            Social Challenge
+                            Legal Consequences
                         </h5>
                         <p
                             class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
                         >
-                            Unemployment and homelessness are pressing issues, and many
-                            individuals lack access to training and opportunities to improve
-                            their lives.
+                            In many regions, stubble burning is illegal, and farmers engaging in the practice can face legal consequences.
                         </p>
                     </div>
                     
                 </a>
-            </div>
-            
-        </nav>
-        
-        <nav class="flex justify-between items-center lg:flex-col flex-col  lg:px-12 px-4 gap-16">
-            <div class="lg:w-[450px] block">
-            <h1
-                            class="dila-denge text-center bg-gradient-to-r from-gradient1 to-gradient2 text-transparent bg-clip-text text-[44px] lg:text-7xl text-4xl select-none block font-instrument overflow-visible font-[900]"
+
+
+                <a
+                        href="#"
+                        class=" flex justify-center items-center min-h-[250px] lg:w-1/2 p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                >
+                    <div>
+                        <h5
+                                class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
                         >
-                            Solutions
-                        </h1>
+                            Social Disputes
+                        </h5>
+                        <p
+                                class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                        >
+                            Stubble burning can lead to conflicts between farmers and neighboring communities due to the negative impacts on air quality and health.
+                        </p>
+                    </div>
+
+                </a>
+
+                <a
+                        href="#"
+                        class=" flex justify-center items-center min-h-[250px] lg:w-1/2 p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                >
+                    <div>
+                        <h5
+                                class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                        >
+                            Global Climate Impact
+                        </h5>
+                        <p
+                                class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                        >
+                            The release of carbon dioxide and other greenhouse gases from burning contributes to global climate change.
+                        </p>
+                    </div>
+
+                </a>
+
+
+                <a
+                        href="#"
+                        class=" flex justify-center items-center min-h-[250px] lg:w-1/2 p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                >
+                    <div>
+                        <h5
+                                class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                        >
+                            Alternative Resource Loss
+                        </h5>
+                        <p
+                                class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                        >
+                            Instead of burning, crop residues can be used for various purposes, such as mulching, composting, or bioenergy production, which are more environmentally friendly and economically valuable.                        </p>
+                    </div>
+
+                </a>
+
             </div>
-            
-            <div class="flex justify-end items-center lg:flex-row flex-col gap-8 flex-wrap">
+
+
+                <div class="flex justify-end items-center lg:flex-row flex-col gap-8">
                     <a
-                    href="#"
-                    class= "lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] lg:max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                            href="#"
+                            class= " flex justify-center items-center min-h-[250px] lg:w-1/2 p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    >
+                        <div>
+                            <h5
+                                    class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                            >
+                                Air Pollution
+                            </h5>
+                            <p
+                                    class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                            >
+                                The burning of crop residues releases harmful pollutants and particulate matter into the air, contributing to poor air quality and respiratory issues.
+
+                            </p>
+                        </div>
+
+                    </a>
+                    <a
+                            href="#"
+                            class=" flex justify-center items-center min-h-[250px] lg:w-1/2 p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    >
+                        <div>
+                            <h5
+                                    class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                            >
+                                Health Risks
+                            </h5>
+                            <p
+                                    class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                            >
+                                Prolonged exposure to the smoke from stubble burning can lead to various health problems, including respiratory diseases, eye irritation, and allergies.
+                            </p>
+                        </div>
+
+                    </a>
+
+
+                    <a
+                            href="#"
+                            class=" flex justify-center items-center min-h-[250px] lg:w-1/2 p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    >
+                        <div>
+                            <h5
+                                    class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                            >
+                                Environmental Damage
+                            </h5>
+                            <p
+                                    class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                            >
+                                Stubble burning depletes soil nutrients, harms soil health, and contributes to soil erosion. It also releases greenhouse gases, exacerbating climate change.
+                            </p>
+                        </div>
+
+                    </a>
+
+                    <a
+                            href="#"
+                            class=" flex justify-center items-center min-h-[250px] lg:w-1/2 p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    >
+                        <div>
+                            <h5
+                                    class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                            >
+                                Loss of Biodiversity
+                            </h5>
+                            <p
+                                    class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                            >
+                                The practice can harm local ecosystems and wildlife by destroying habitats and reducing food sources.
+                            </p>
+                        </div>
+
+                    </a>
+
+
+                    <a
+                            href="#"
+                            class=" flex justify-center items-center min-h-[250px] lg:w-1/2 p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    >
+                        <div>
+                            <h5
+                                    class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                            >
+                                Visibility Issues
+                            </h5>
+                            <p
+                                    class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                            >
+                                Thick smoke from stubble burning can reduce visibility, increasing the risk of accidents on roads and highways.
+                            </p>
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </nav>
+
+        <nav class="flex justify-between items-center lg:flex-col flex-col  lg:px-12 px-4 gap-16">
+            <div class=" block pt-80">
+                <h1
+                        class="dila-denge text-center bg-gradient-to-r from-gradient1 to-gradient2 text-transparent bg-clip-text text-[44px] lg:text-7xl text-4xl select-none block font-instrument overflow-visible font-[900]"
+                >
+                    Benefits of PUSA Bio Decomposer
+                </h1>
+            </div>
+<div>
+
+                <div class="mt-10">
+                <div class="lg:flex block items-center gap-4 justify-center">
+                <a
+                        href="#"
+                        class="lg:flex-grow-1 lg:mr-0  lg:w-1/5 lg:mt-0 mt-8 lg:mt-0 mt-4 lg:mt-0 mt-4 lg:flex-shrink-0 flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
                 >
                     <div>
                         <h5
-                        class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                                class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
                         >
-                        Urban Reforestation
+                            Crop Residue Management
                         </h5>
                         <p
-                            class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                                class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
                         >
-                        We will plant trees and other greenery in urban areas,
-                        increasing the overall green cover, improving air quality,
-                        and combating climate change.
+                            PUSA Bio-Decomposer is used to treat crop residues, such as rice straw and wheat straw, left in the fields after harvest.
                         </p>
                     </div>
-                    
+
                 </a>
+
+                    <a
+                            href="#"
+                            class="lg:flex-grow-1 lg:lg:lg:lg:mr-0 lg:w-1/5 lg:mt-0 mt-8 lg:mt-0 mt-4 lg:mt-0 mt-4 lg:flex-shrink-0 flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    >
+                        <div>
+                            <h5
+                                    class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                            >
+                                Microbial Inoculation
+                            </h5>
+                            <p
+                                    class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                            >
+                                The technology involves the application of a mixture containing beneficial microbes to the crop residues.
+                            </p>
+                        </div>
+
+                    </a>
+
+                    <a
+                            href="#"
+                            class="lg:flex-grow-1 lg:lg:lg:lg:mr-0 lg:w-1/5 lg:mt-0 mt-8 lg:mt-0 mt-4 lg:mt-0 mt-4 lg:flex-shrink-0 flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    >
+                        <div>
+                            <h5
+                                    class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                            >
+                                Accelerated Decomposition
+                            </h5>
+                            <p
+                                    class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                            >
+                                These microbes accelerate the natural decomposition process of crop residues, breaking them down into organic matter.
+                            </p>
+                        </div>
+
+                    </a>
+                    <a
+                            href="#"
+                            class="lg:flex-grow-1 lg:lg:lg:lg:mr-0 lg:w-1/5 lg:mt-0 mt-8 lg:mt-0 mt-4 lg:mt-0 mt-4 lg:flex-shrink-0 flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                    >
+                        <div>
+                            <h5
+                                    class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                            >
+                                Nutrient Recycling
+                            </h5>
+                            <p
+                                    class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                            >
+                                PUSA Bio-Decomposer enhances nutrient recycling, returning valuable organic matter and nutrients to the soil, which can improve soil health and fertility.
+                            </p>
+                        </div>
+
+                    </a>
+
+
                 <a
-                    href="#"
-                    class= "lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] lg:max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+                        href="#"
+                        class="lg:flex-grow-1 lg:w-1/5 lg:mt-0 mt-8 lg:mt-0 mt-4 lg:mt-0 mt-4 lg:flex-shrink-0 flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
                 >
                     <div>
                         <h5
-                        class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                                class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
                         >
-                        Employment Opportunities
+                            Reduction in Stubble Burning
                         </h5>
                         <p
-                            class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                                class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
                         >
-                        Our goal is to create sustainable employment opportunities
-                    within our project and connect participants with
-                    organizations in need of drone-assisted reforestation and
-                    green infrastructure development.
+                            By effectively decomposing crop residues, it reduces the need for stubble burning, which in turn helps mitigate air pollution and environmental damage.
                         </p>
                     </div>
-                    
+
                 </a>
-                <a
+
+            </div>
+
+            </div>
+
+
+
+    <div class="mt-10">
+        <div class="lg:flex block justify-center  gap-4">
+            <a
                     href="#"
-                    class="lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] lg:max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
-                >
-                    <div>
-                        <h5
-                        class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
-                        >
-                        Skills Training
-                        </h5>
-                        <p
+                    class="lg:flex-grow-1 lg:lg:lg:lg:mr-0 lg:lg:w-1/5 lg:mt-0 mt-8 lg:flex-shrink-0  flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+            >
+                <div>
+                    <h5
+                            class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                    >
+                        Improved Soil Health
+                    </h5>
+                    <p
                             class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
-                        >
-                        We will provide training in drone technology, urban
-                        forestry, and environmental management to unemployed and
-                        homeless individuals. This training will equip them with
-                        valuable skills for employment in the growing field of green
-                        technology.
-                        </p>
-                    </div>
-                    
-                </a>
-                <a
+                    >
+                        The organic matter added to the soil enhances its structure, moisture retention capacity, and nutrient availability, leading to improved crop yields over time.
+                    </p>
+                </div>
+
+            </a>
+
+            <a
                     href="#"
-                    class="lg:flex-grow-1 lg:flex-shrink-0 lg:basis-[calc(50%-18px)] lg:max-w-[calc(50%-18px)] flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
-                >
-                    <div>
-                        <h5
-                        class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
-                        >
-                            Community Impact
-                        </h5>
-                        <p
+                    class="lg:flex-grow-1 lg:lg:lg:lg:mr-0 lg:lg:w-1/5 lg:mt-0 mt-8 lg:flex-shrink-0  flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+            >
+                <div>
+                    <h5
+                            class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                    >
+                        Environmental Benefits
+                    </h5>
+                    <p
                             class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
-                        >
+                    >
+                        PUSA Bio-Decomposer helps reduce greenhouse gas emissions associated with stubble burning, contributing to environmental conservation.
+                    </p>
+                </div>
+
+            </a>
+
+            <a
+                    href="#"
+                    class="lg:flex-grow-1 lg:lg:lg:lg:mr-0 lg:lg:w-1/5 lg:mt-0 mt-8 lg:flex-shrink-0  flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+            >
+                <div>
+                    <h5
+                            class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                    >
+                        Government Initiatives
+                    </h5>
+                    <p
+                            class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                    >
+                        In regions where stubble burning is a prevalent issue, government authorities may promote and subsidize the use of PUSA Bio-Decomposer to encourage its adoption by farmers.
+                    </p>
+                </div>
+
+            </a>
+
+            <a
+                    href="#"
+                    class="lg:flex-grow-1 lg:lg:lg:lg:mr-0 lg:w-1/5 lg:mt-0 mt-8 lg:flex-shrink-0  flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+            >
+                <div>
+                    <h5
+                            class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                    >
+                        Community-Based Approach
+                    </h5>
+                    <p
+                            class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                    >
+                        It can be applied at the community level, where farmers collectively use the technology to manage crop residues and reduce the harmful effects of stubble burning.
+                    </p>
+                </div>
+
+            </a>
+
+            <a
+                    href="#"
+                    class="lg:flex-grow-1 lg:w-1/5 lg:mt-0 mt-4 lg:flex-shrink-0  flex justify-center items-center min-h-[250px] p-6 border-2 border-gradient2 rounded-2xl dark:bg-gray-800  hover:bg-gradient1/10 transition-all duration-300 ease-in-out hover:border-gradient1"
+            >
+                <div>
+                    <h5
+                            class="mb-2 lg:text-xl text-lg text-center font-bold tracking-tight text-gray-900 dark:text-white"
+                    >
+                        Community Impact
+                    </h5>
+                    <p
+                            class="font-normal lg:text-md text-sm text-center text-gray-900 dark:text-gray-400"
+                    >
                         By planting trees and training individuals, we aim to create
                         a positive ripple effect in our community. A greener
                         environment will improve the overall quality of life, while
                         individuals will gain valuable skills and a sense of
                         purpose.
-                        </p>
-                    </div>
-                    
-                </a>
-            </div>
-            
+                    </p>
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+</div>
         </nav>
+        
+
     </div>
     
-    <nav class="flex justify-between items-center lg:flex-col flex-col  lg:px-12 px-4">
+    <nav class="flex justify-between items-center lg:flex-col flex-col  lg:pt-60 lg:px-12 px-4">
         <h1
             class="dila-denge pt-24 text-center bg-gradient-to-r from-gradient1 to-gradient2 text-transparent bg-clip-text text-[44px] lg:text-7xl text-4xl select-none block font-instrument overflow-visible font-[900]"
         >
             Why does it matter?
         </h1>
 
-
+<div class="flex pt-20">
         <p
-            class="font-normal max-w-[1100px] text-lg lg:px-24 px-4 text-center text-gray-900 dark:text-gray-400 pt-5"
+            class="font-normal w-1/2 max-w-[800px] text-lg lg:px-0 px-4 text-center text-gray-900 dark:text-gray-400 pt-5"
         >
-            Our visionary project seamlessly intertwines the principles of
-            environmental stewardship and social empowerment, providing
-            innovative solutions to confront not only the pressing issues of
-            today but also the enduring challenges of tomorrow. This
-            multifaceted initiative not only champions the cause of
-            environmental sustainability but also extends a lifeline to
-            marginalized individuals, granting them the opportunity to not
-            only reclaim but also rejuvenate their lives. In doing so, we're
-            not just addressing the urgent needs of our planet but also
-            nurturing the seeds of a more equitable and sustainable future
-            for all.
+            <br> Crop burning matters significantly due to its adverse impacts on health, the environment, and the economy. It releases harmful pollutants and particulate matter into the air, leading to poor air quality and various health problems. Prolonged exposure to the smoke can cause respiratory issues, cardiovascular diseases, and eye irritation, particularly affecting vulnerable populations.
+
+            <br> <br>Environmental damage results from crop burning, including soil nutrient depletion, reduced fertility, and soil erosion. It also contributes to climate change by emitting greenhouse gases. Loss of biodiversity occurs as habitats are destroyed, affecting local wildlife and plant species.
+
+            <br> <br>Economically, crop burning leads to losses in the agriculture sector, with nutrients in crop residues wasted and reduced crop yields in subsequent seasons. It can also disrupt transportation and daily activities due to reduced visibility. In many regions, it is illegal, resulting in legal consequences and social conflicts between farmers and neighboring communities.
+
+            <br> <br>Crop burning is a wasteful practice, as crop residues can be utilized for mulching, composting, or bioenergy production. Implementing sustainable alternatives like no-till farming or technologies such as PUSA Bio-Decomposer is crucial to mitigate these negative impacts and promote healthier, more environmentally friendly agricultural practices.
         </p>
 
+        <div class="rounded-3xl lg:w-[600px] h-auto lg:p-0 p-10 lg:ml-20 ">
+            <lottie-player
+                    src={landingPageLottieFile2}
+                    background="transparent"
+                    speed="1"
+                    direction="1"
+                    mode="normal"
+                    loop
+                    autoplay
+            />
+        </div>
+</div>
     </nav>
 
     <nav class="lottie overflow-hidden">
