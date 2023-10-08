@@ -29,8 +29,8 @@
     <div class="py-32 flex justify-center items-center lg:flex-row flex-col ">
         <div class="md:col-span-4 p-10 pl-10 text-text select-none">
 
-            <h3 class="lg:text-7xl text-5xl leading-normal bg-gradient-to-r  to-gradient1 from-gradient2 text-transparent bg-clip-text  select-none tracking-tight font-final ">
-                CONTACT US
+            <h3 class="lg:text-7xl text-5xl font-[900] font-display bg-gradient-to-r  to-gradient1 from-gradient2 text-transparent bg-clip-text  select-none ">
+                Contact Us
             </h3>
 
             <div class="flex items-center mt-5 space-x-3">

@@ -25,13 +25,6 @@
                             <h3>Home</h3>
                         </div>
                     </a>
-                    <a href="/Events" class="hover:cursor-pointer hover:underline hover:scale-105 hover:opacity-80 transition-all ease-in-out duration-300">
-                        <div class="flex justify-center items-center flex-row gap-2 ">
-                            <img src="/calendar.svg" class="w-4 h-auto selet-none mt-[-4px]" alt=""/>
-                            <h3 class="cursor-pointer">Supplies</h3>
-
-                        </div>
-                    </a>
                     <a href="/contact" class="hover:cursor-pointer hover:underline hover:scale-105 hover:opacity-80 transition-all ease-in-out duration-300">
                         <div class="flex justify-center items-center flex-row gap-2 ">
                             <img src="/call.svg" class="w-4 h-auto selet-none mt-[-4px]" alt=""/>

@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/Dashboard/Branch/AIDS/Second/+page.svelte";
+export { default as component } from "../../../../src/routes/Dashboard/Branch/AIDS/Fourth/+page.svelte";
